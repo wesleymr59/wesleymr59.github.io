@@ -1,0 +1,210 @@
+/* Inicio conteudo barra de navegação */
+
+
+.nav_bar {
+    background-color: #000;
+    opacity: 0.80;
+    -moz-opacity: 0.80;
+    width: 100%;
+    max-width: 1900px;
+    margin: 0 auto;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.nav_bar h1 {
+    font-family: Gabriola;
+    size: 5px;
+    text-transform: uppercase;
+    width: 130px;
+    
+
+}
+
+.nav_bar ul {
+    overflow: hidden;
+    text-align: center;
+    padding-left: 28%;
+}
+
+.nav_bar ul a {
+    text-decoration: none;
+    color: #FFF;
+    
+}
+
+.nav_bar ul li a:hover {
+    display: block;
+    color: red;
+}
+
+/* Texto para chamar Atenção */
+.text{
+    padding-top: 25px;
+    height: 600px;
+    width: 100%;
+    clear: both;
+}
+
+.img-fundo {
+    background-image: url(../img/1_oyPaDNs0qtB6yCD3HQaQJg.jpeg);
+    width: 100%;
+}
+
+.text_atenc {
+    font-size: 60px;
+    font-family: sans-serif;
+    line-height:;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+
+}
+.text_atenc p{
+    font-weight: bold;
+    font-size: 70px;
+    font-family: cursive;
+}
+
+.separador p:after{
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    background: #FFF;
+    margin: 13px auto;
+    
+}
+.separador p:before{
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    background: #FFF;
+    margin: 13px auto;
+    
+}
+
+/*  */
+.espacamento{
+    padding-top: 80px ;
+    margin-bottom: 80px;
+}
+.img-fpizza{
+    padding-bottom: 30px;
+    display: inline;
+    width: 30%;
+}
+
+.line-txt{
+   display: inline;
+   width: 500px;
+   float: right;
+   font-size: 28px;
+}
+
+/* Reserva */
+
+.reserva{
+    background-color: #000;
+    width: 100%;
+    max-width: 1900px;
+    height: 300px;
+    margin: 30 auto;
+    padding-top: 80px;
+    text-align: center;
+    
+}
+.reserva a{
+    font-size: 90px;
+    font-family: Gabriola;
+    color: #fff;
+    text-align: center;
+    margin-top: 150px;
+}
+.reserva a:after{
+    content: "";
+    display: block;
+    width: 90px;
+    height: 3px;
+    background: #FFF;
+    margin: 2px auto 8px auto;
+}
+.reserva a:hover{ 
+    color: red;
+}
+
+/* Parceria vip */
+
+.vip{
+   background-color: rgb(207, 4, 4);
+   height: 150px;
+   text-align: center;
+   
+   
+}
+.vip h3{
+    font-size: 40px;
+    padding-top: 35px;
+}
+.vip input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.vip button{
+    background-color: #000;
+    color: white;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+}
+.vip button:hover{ 
+    background-color: rgb(68, 67, 67);
+}
+
+/* Footer  */
+
+.footer{
+    background-color: rgb(24, 23, 23);
+    color: white;
+    padding: 15px;
+}
+
+.footer_historia {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.footer_historia p{
+    margin-top: 10px;
+    line-height: 1.5em;
+
+}
+
+.footer_contato{
+    font-size: 16px;
+    font-family: sans-serif;    
+}
+.footer_contato ul {
+    margin-top: 10px;
+
+}
+.footer_contato ul li {
+    margin-top: 5px;
+
+}
+
+.footer_rede{
+    font-size: 16px;
+    font-family: sans-serif;    
+}
+
+.footer_rede h3{
+   
+}
+.footer_rede ul {
+    margin-top: 10px;
+}
